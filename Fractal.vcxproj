@@ -131,7 +131,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ColorPalette.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Mandelbrot.cpp" />
+    <ClCompile Include="ViewController.cpp" />
+    <ClCompile Include="ViewRenderer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ColorPalette.h" />
+    <ClInclude Include="Mandelbrot.h" />
+    <ClInclude Include="ViewController.h" />
+    <ClInclude Include="ViewRenderer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
